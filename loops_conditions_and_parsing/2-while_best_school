@@ -2,5 +2,5 @@
 # Display Best School 10 times with while loop
 while [ $i -lt 10 ]
 do echo "Best School"
-i=$[$i=1]
+i=$[ $i+1 ]
 done
